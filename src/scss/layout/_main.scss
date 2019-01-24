@@ -25,10 +25,23 @@ body {
   outline: none;
   padding: 0 20px;
   transition: all .5s ease;
-  display: block;
+  
 
   &:hover {
     transform: scale(1.15);
   }
+  
 }
-
+#thanks
+{
+  display: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  font-family: 'Lobster', cursive;
+  font-size: 42px;
+  height: 60px;
+  outline: none;
+  padding: 0 20px;
+  transform: scale(1.15);
+}
