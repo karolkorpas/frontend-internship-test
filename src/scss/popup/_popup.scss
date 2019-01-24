@@ -110,6 +110,9 @@
             margin-bottom: 40px;
             cursor: pointer;
         }
-        
+        input[type=submit]:hover
+        {
+            background-color: #fc888e;
+        }
     }
 }

@@ -14,12 +14,21 @@
     <section class="main">
         <button id="show-popup-form" class="btn btn-main">Click me!</button>
          <!-- Display success message below -->
-    </section>
-         <div class="popup">
-            <!-- Here goes your popup form HTML code -->
-            
-         </div>
     
+         <div id="pop" class="popup">
+            <!-- Here goes your popup form HTML code -->
+            <i id="exit" class="icon-cancel-circled"></i>
+            <h1>Login</h1>
+            <form>
+
+                <input type="text" name="e-mail" placeholder="E-mail">
+                <input type="password" name="password" placeholder="Password"><br/>
+                <div class="checkbox"><input type="checkbox" id="checkbox_1" name="password"><label for="checkbox_1">I agree to terms &amp; conditions.</label></div>
+                <input type="submit" name="submit" value="SUBMIT"><br/>
+
+            </form>
+         </div>
+    </section>
     <script src="js/index.js" charset="utf-8" async></script>
   </body>
 </html>
