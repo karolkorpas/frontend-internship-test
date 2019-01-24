@@ -1,18 +1,17 @@
+/* Here goes your CSS */
 /* Main styles */
 html,
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 .main {
   background: linear-gradient(-45deg, #fcaf32 0%, #fc888e 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
 
 .btn-main {
   appearance: none;
@@ -24,11 +23,9 @@ body {
   height: 60px;
   outline: none;
   padding: 0 20px;
-  transition: all .5s ease;
-  
+  transition: all .5s ease; }
+  .btn-main:hover {
+    transform: scale(1.15); }
 
-  &:hover {
-    transform: scale(1.15);
-  }
-}
 
+/*# sourceMappingURL=styles.css.map */
